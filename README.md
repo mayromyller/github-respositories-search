@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+<h1 align="center">
+	<a href="#">GitHub repositories search</a>
+</h1>
+<h5 align="center">
+  🔍 Busque por qualquer repositório público no GitHub.
+</h5>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre
 
-## Available Scripts
+Aplicação feita para fazer buscas de repositórios do GitHub, construído com ReactJS+Typescript e Styled Components.
 
-In the project directory, you can run:
+Ao utilizar essa aplicação você poderá salvar e listar repositórios. Com ela você pode fazer acesso de forma mais fácil a páginas de issues do respotório que que lhe interessa.
 
-### `yarn start`
+Essa aplicação utiliza dados da API do GitHub para fazer as consultas aos repositórios, portando tudo que você puder visualizar por aqui, é oficial do GitHub.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Layout da aplicação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Página inicial
 
-### `yarn test`
+<img  src="./src/assets/screenshots/repositories-github-search.png"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Pré-requisitos
 
-### `yarn build`
+Para rodar o app garanta que você tenha as seguintes ferramentas: Git, Node.js.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Rodando ao app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone este repositório
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/mayromyller/github-respositories-search.git
+```
 
-### `yarn eject`
+Instale as depenêndicas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Rode em modo de desenvolvedor
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm run start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+A aplicação irá rodar em: [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+### Tecnologias utilizadas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Node.js](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
+- [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+- [Styled-Compoenents](https://styled-components.com/)
