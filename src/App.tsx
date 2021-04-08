@@ -1,8 +1,11 @@
+import { BrowserRouter } from 'react-router-dom'
+import Routes from './routes'
+
 function App() {
   return (
-    <div className="App">
-      <h1>GitHub Repositories Search</h1>
-    </div>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   )
 }
 
