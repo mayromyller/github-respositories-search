@@ -17,6 +17,9 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
   }
 
+  a{
+    text-decoration: none;
+  }
 `
 
 export default GlobalStyles

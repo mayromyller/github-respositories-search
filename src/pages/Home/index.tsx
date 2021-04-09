@@ -1,4 +1,5 @@
 import Header from '../../components/Header'
+import Repositorie from '../../components/Repositorie'
 import Search from '../../components/Search'
 import * as S from './styles'
 
@@ -13,7 +14,10 @@ const Home = () => {
           repositórios do Github
         </S.Title>
       </S.Container>
+
       <Search />
+
+      <Repositorie />
     </>
   )
 }
