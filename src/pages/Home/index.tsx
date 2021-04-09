@@ -1,8 +1,18 @@
+import Header from '../../components/Header'
+import * as S from './styles'
+
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <Header />
+      <S.Container>
+        <S.Title>
+          Faça uma busca por
+          <br />
+          repositórios do Github
+        </S.Title>
+      </S.Container>
+    </>
   )
 }
 
