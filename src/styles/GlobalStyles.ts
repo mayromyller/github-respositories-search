@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body{
-    background: #333 url(${octocatHero}) no-repeat 70% top;
+    background: #333 url(${octocatHero}) no-repeat 90% top;
     color: #fff;
     font-family: 'Roboto', sans-serif;
   }
