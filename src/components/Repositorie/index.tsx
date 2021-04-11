@@ -1,14 +1,14 @@
 import * as S from './style'
 
-const Repositorie = () => {
+const Repositorie = ({ repository }: any) => {
   return (
     <>
       <S.Container href="#">
         <S.AuthorContainer>
-          <S.Author>mayromyller/repositorie-github-search</S.Author>
-          <S.Description>Search for any repositorie</S.Description>
+          <S.Author>{repository.full_name}</S.Author>
+          <S.Description>{repository.description}</S.Description>
         </S.AuthorContainer>
-        <S.Avatar src="https://avatars.githubusercontent.com/u/24323504?v=4" />
+        <S.Avatar src={repository.owner.avatar_url} />
       </S.Container>
     </>
   )
