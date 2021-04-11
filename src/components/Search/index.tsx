@@ -1,4 +1,4 @@
-import { FormEvent, useState } from 'react'
+import { FormEvent, useEffect, useState } from 'react'
 import Repositorie from '../Repositorie'
 import * as S from './style'
 
@@ -15,7 +15,19 @@ export interface Repository {
 
 const Search = () => {
   const [search, setSearch] = useState('')
-  const [repositorie, setRepositorie] = useState<Repository[]>([])
+  const [repositorie, setRepositorie] = useState<Repository[]>(() => {
+    const localRepositories = localStorage.getItem('repos')
+
+    if (localRepositories) {
+      return JSON.parse(localRepositories)
+    } else {
+      return []
+    }
+  })
+
+  useEffect(() => {
+    localStorage.setItem('repos', JSON.stringify(repositorie))
+  }, [repositorie])
 
   async function getRepositorie(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
