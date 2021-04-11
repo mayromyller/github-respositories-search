@@ -15,6 +15,8 @@ export interface Repository {
 
 const Search = () => {
   const [search, setSearch] = useState('')
+  const [error, setError] = useState('')
+
   const [repositorie, setRepositorie] = useState<Repository[]>(() => {
     const localRepositories = localStorage.getItem('repos')
 
@@ -31,13 +33,17 @@ const Search = () => {
 
   async function getRepositorie(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
+    try {
+      const response = await api.get<Repository>(`repos/${search}`)
 
-    const response = await api.get<Repository>(`repos/${search}`)
+      const repository = response.data
 
-    const repository = response.data
-
-    setRepositorie([...repositorie, repository])
-    setSearch('')
+      setRepositorie([...repositorie, repository])
+      setSearch('')
+      setError('')
+    } catch (error) {
+      setError('Por favor digite o nome do autor/nome do repositório')
+    }
   }
 
   return (
@@ -51,6 +57,8 @@ const Search = () => {
         />
         <S.Button>Pesquisar</S.Button>
       </S.Container>
+
+      {error && <p style={{ color: '#fa1414' }}>{error}</p>}
 
       {repositorie.map((repos) => (
         <Repositorie key={repos.full_name} repository={repos} />
