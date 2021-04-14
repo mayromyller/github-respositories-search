@@ -4,7 +4,7 @@ import * as S from './style'
 
 import api from '../../services/api'
 
-export interface Repository {
+interface Repository {
   full_name: string
   description: string
   owner: {
