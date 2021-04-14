@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-export const Container = styled.a`
+import { Link } from 'react-router-dom'
+
+export const Container = styled(Link)`
   margin-top: 15px;
   max-width: 675px;
   background: #fff;
