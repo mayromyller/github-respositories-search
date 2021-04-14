@@ -1,6 +1,16 @@
 import * as S from './style'
 
-const Repositorie = ({ repository }: any) => {
+interface Props {
+  repository: {
+    full_name: string
+    description: string
+    owner: {
+      avatar_url: string
+    }
+  }
+}
+
+const Repositorie = ({ repository }: Props) => {
   return (
     <>
       <S.Container to={`repositories/${repository.full_name}`}>
