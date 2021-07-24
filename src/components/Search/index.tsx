@@ -42,7 +42,7 @@ const Search = () => {
       setSearch('')
       setError('')
     } catch (error) {
-      setError('Por favor digite o nome do autor/nome do repositório')
+      setError('Please enter the author name/repository name')
     }
   }
 
@@ -53,7 +53,7 @@ const Search = () => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           type="text"
-          placeholder="Buscar repositório... "
+          placeholder="Search repository... "
         />
         <S.Button>Pesquisar</S.Button>
       </S.Container>
