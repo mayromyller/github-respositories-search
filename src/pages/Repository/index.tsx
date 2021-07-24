@@ -55,7 +55,7 @@ const Repository = () => {
         <img src={logoImg} alt="GitHub logo" />
         <Link to="/">
           <FiChevronLeft size={16} />
-          Voltar
+          Back
         </Link>
       </S.Header>
 
@@ -64,7 +64,7 @@ const Repository = () => {
           <div>
             <img
               src={repository.owner.avatar_url}
-              alt={`imagem de perfil de usuário do GitHub chamado ${repository.owner.login}`}
+              alt={`GitHub user profile picture named ${repository.owner.login}`}
             />
             <S.InfoContiner>
               <S.RepositoryName>{repository.full_name}</S.RepositoryName>

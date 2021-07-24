@@ -8,9 +8,9 @@ const Home = () => {
       <Header />
       <S.Container>
         <S.Title>
-          Faça uma busca por
+          Search for
           <br />
-          repositórios do Github
+          Github repositories
         </S.Title>
       </S.Container>
 
