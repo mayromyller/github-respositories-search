@@ -13,7 +13,6 @@ const Home = () => {
           Github repositories
         </S.Title>
       </S.Container>
-
       <Search />
     </>
   )
