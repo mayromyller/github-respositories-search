@@ -2,51 +2,52 @@
 	<img src="./src/assets/logo_dark.svg"/>
 </h1>
 <h5 align="center">
-  🔍 Busque por qualquer repositório público no GitHub.
+  🔍 Search any public repository on GitHub.
 </h5>
 
-## Sobre
+## About
 
-Aplicação feita para fazer buscas de repositórios do GitHub, construído com ReactJS+Typescript e Styled Components.
+Application made to search GitHub repositories, built with ReactJS+Typescript and Styled Components.
 
-Ao utilizar essa aplicação você poderá salvar e listar repositórios. Com ela você pode fazer acesso de forma mais fácil a páginas de issues do repositório que que lhe interessa.
+By using this application you will be able to save and list repositories. With it, you can access more easily issues pages from the repository that interests you.
 
-Essa aplicação utiliza dados da API do GitHub para fazer as consultas aos repositórios, portando tudo que você puder visualizar por aqui, é oficial do GitHub.
+This application uses data from the GitHub API to query the repositories, porting everything you can see here, it's official from GitHub.
 
-## Layout da aplicação
+## Layout
 
-Página inicial
+Home page
 
 <img  src="./src/assets/screenshots/repositories-github-search.png"/>
 
-## Pré-requisitos
+## Prerequisites
 
-Para rodar o app garanta que você tenha as seguintes ferramentas: `Git`, `Node.js`.
+To run the app make sure you have the following tools: `Git`, `Node.js`.
 
-## Como executar
+## How to run
 
-Clone o projeto e acesse a pasta
+Clone the project and access the folder
 
 ```
 git clone https://github.com/mayromyller/github-respositories-search.git
 ```
 
-Instale as dependências
+Install dependencies
 
 ```bash
-# Instale as dependências
 yarn
 
-# Iniciar o projeto
+# Start project
 yarn start
 ```
 
-A aplicação irá rodar em: [http://localhost:3000](http://localhost:3000)
+The application will run on: [http://localhost:3000](http://localhost:3000)
 
-### Tecnologias utilizadas
+### Technologies used
 
 - [Node.js](https://nodejs.org/en/)
 - [Typescript](https://www.typescriptlang.org/)
 - [React](https://pt-br.reactjs.org/)
 - [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 - [Styled-Components](https://styled-components.com/)
+
+[Read in Portuguese BR 🇧🇷](./README_pt-BR.md)
