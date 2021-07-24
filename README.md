@@ -9,7 +9,7 @@
 
 Aplicação feita para fazer buscas de repositórios do GitHub, construído com ReactJS+Typescript e Styled Components.
 
-Ao utilizar essa aplicação você poderá salvar e listar repositórios. Com ela você pode fazer acesso de forma mais fácil a páginas de issues do respotório que que lhe interessa.
+Ao utilizar essa aplicação você poderá salvar e listar repositórios. Com ela você pode fazer acesso de forma mais fácil a páginas de issues do repositório que que lhe interessa.
 
 Essa aplicação utiliza dados da API do GitHub para fazer as consultas aos repositórios, portando tudo que você puder visualizar por aqui, é oficial do GitHub.
 
@@ -31,7 +31,7 @@ Clone este repositório
 git clone https://github.com/mayromyller/github-respositories-search.git
 ```
 
-Instale as depenêndicas
+Instale as dependências
 
 ```
 npm install
@@ -51,4 +51,4 @@ A aplicação irá rodar em: [http://localhost:3000](http://localhost:3000)
 - [Typescript](https://www.typescriptlang.org/)
 - [React](https://pt-br.reactjs.org/)
 - [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
-- [Styled-Compoenents](https://styled-components.com/)
+- [Styled-Components](https://styled-components.com/)
