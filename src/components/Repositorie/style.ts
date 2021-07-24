@@ -6,7 +6,7 @@ export const Container = styled(Link)`
   margin-top: 15px;
   max-width: 675px;
   background: #fff;
-  height: 100px;
+  height: 80px;
   border-radius: 6px;
   color: #333;
 
@@ -31,17 +31,17 @@ export const AuthorContainer = styled.div`
 `
 
 export const Author = styled.h4`
-  font-size: 25px;
+  font-size: 20px;
 `
 
 export const Description = styled.p`
-  font-size: 20px;
+  font-size: 16px;
   color: #838383;
 `
 
 export const Avatar = styled.img`
   max-width: 100%;
-  height: 90px;
-  width: 90px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
 `

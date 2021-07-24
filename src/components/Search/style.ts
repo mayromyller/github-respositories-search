@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
 export const Container = styled.form`
-  margin: 60px 0 80px 0;
+  margin: 35px 0;
   max-width: 675px;
   display: flex;
 `
 
 export const Input = styled.input`
-  height: 60px;
+  height: 50px;
   flex: 1;
   border: 0px;
   border-radius: 6px 0 0 6px;
@@ -17,7 +17,7 @@ export const Input = styled.input`
 `
 
 export const Button = styled.button`
-  height: 60px;
+  height: 50px;
   width: 220px;
   border: 0px;
   background: #fb1;
