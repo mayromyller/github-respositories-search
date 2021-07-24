@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img src="./src/assets/logo.svg"/>
+	<img src="./src/assets/logo_dark.svg"/>
 </h1>
 <h5 align="center">
   🔍 Busque por qualquer repositório público no GitHub.
