@@ -1,5 +1,5 @@
 <h1 align="center">
-	<a href="#">GitHub repositories search</a>
+	<img src="./src/assets/logo.svg"/>
 </h1>
 <h5 align="center">
   🔍 Busque por qualquer repositório público no GitHub.
@@ -21,11 +21,11 @@ Página inicial
 
 ## Pré-requisitos
 
-Para rodar o app garanta que você tenha as seguintes ferramentas: Git, Node.js.
+Para rodar o app garanta que você tenha as seguintes ferramentas: `Git`, `Node.js`.
 
-## Rodando ao app
+## Como executar
 
-Clone este repositório
+Clone o projeto e acesse a pasta
 
 ```
 git clone https://github.com/mayromyller/github-respositories-search.git
@@ -33,14 +33,12 @@ git clone https://github.com/mayromyller/github-respositories-search.git
 
 Instale as dependências
 
-```
-npm install
-```
+```bash
+# Instale as dependências
+yarn
 
-Rode em modo de desenvolvedor
-
-```
-npm run start
+# Iniciar o projeto
+yarn start
 ```
 
 A aplicação irá rodar em: [http://localhost:3000](http://localhost:3000)
